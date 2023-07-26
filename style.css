@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #694B43;
+  background: #FFE4C4;
+  font-family: "Brush Script MT", "Georgia", cursive;
+}
+
+.header {
+  background-color: #694B43;
+  color: #FFE4C4
+}
+
+.header-head {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.header-links {
+  display: flex;
+  gap: 8px
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+a, h2 {
+  /* font-family: 'Georgia', serif; */
+  color: #FFE4C4;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 12px;
+  padding: 0;
+}
+
+ul {
+  margin: 18px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.header-footer {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 100px;
+}
+
+
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 90px;
+  font-size: 48px;
+}
+
+.header-footer-content-text{
+  margin-top: 0;
+  font-size: 18px;
+}
+
+button {
+  font-family: font-family: "Brush Script MT", "Georgia", cursive;
+  background: #E1D4D1;
+  border: none;
+  color: #694B43;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+
+.content {
+  margin: 16px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.content-images {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+    align-self: center;margin: 0;
+}
+
+img {
+  height: 150px;
+  weight: auto;
+  border: 5px solid #694B43;
+}
+
+.header-image {
+  height: 300px;
+  weight: auto;
+}
+
+.quotation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #b99b92;
+  text-align: center;
+  font-size: 24px;
+  color: #E1D4D1;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #694B43;
+  color: #E1D4D1;
+  margin: 100px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.if-you-want{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
